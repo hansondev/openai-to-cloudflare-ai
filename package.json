@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "start": "wrangler start --remote src/index.tsx"
     "dev": "wrangler dev --remote src/index.tsx",
     "deploy": "wrangler deploy --minify src/index.tsx"
   },
